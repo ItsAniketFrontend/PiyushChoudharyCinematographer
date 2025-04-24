@@ -1,0 +1,603 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: head;
+  src: url(../Fonts/Ambroise-Regular.otf);
+}
+@font-face {
+  font-family: para-roman;
+  src: url(../Fonts/CantoPen-Roman.ttf);
+}
+@font-face {
+  font-family: Para;
+  src: url(../Fonts/CantoPen-Light.ttf);
+}
+@font-face {
+  font-family: para-bold;
+  src: url(../Fonts/CantoPen-SemiBold.ttf);
+}
+@font-face {
+  font-family: anchor;
+  src: url(../Fonts/Futura\ Book\ font.ttf);
+}
+nav {
+  background-color: #fff;
+}
+nav img {
+  height: 50px;
+}
+nav a {
+  font-family: para-bold;
+  font-size: 18px !important;
+  font-family: 900;
+  color: black;
+  text-transform: uppercase;
+}
+
+.banner .swiper {
+  width: 100%;
+  height: 600px;
+}
+.banner .swiper .one {
+  background: url(../mitesh_new_images/Hero-section/01.jpg);
+  background-repeat: no-repeat;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner .swiper .one h2 {
+  color: #fff;
+  font-family: head;
+  font-size: 52px;
+}
+@media (max-width: 991px) {
+  .banner .swiper .one h2 {
+    font-size: 36px;
+    text-align: center;
+  }
+}
+.banner .swiper .two {
+  background: url(../mitesh_new_images/Hero-section/02.jpg);
+  background-repeat: no-repeat;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner .swiper .two h2 {
+  color: #fff;
+  font-family: head;
+  font-size: 52px;
+}
+@media (max-width: 991px) {
+  .banner .swiper .two h2 {
+    font-size: 36px;
+    text-align: center;
+  }
+}
+.banner .swiper .three {
+  background: url(../mitesh_new_images/Hero-section/03.jpg);
+  background-repeat: no-repeat;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner .swiper .three h2 {
+  color: #fff;
+  font-family: head;
+  font-size: 52px;
+}
+@media (max-width: 991px) {
+  .banner .swiper .three h2 {
+    font-size: 36px;
+    text-align: center;
+  }
+}
+.banner .swiper .four {
+  background: url(../mitesh_new_images/Hero-section/04.jpg);
+  background-repeat: no-repeat;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner .swiper .four h2 {
+  color: #fff;
+  font-family: head;
+  font-size: 52px;
+}
+@media (max-width: 991px) {
+  .banner .swiper .four h2 {
+    font-size: 36px;
+    text-align: center;
+  }
+}
+
+.about-me {
+  padding: 50px 0px;
+  overflow: hidden;
+}
+.about-me .img-wrap {
+  height: 400px;
+  width: 100%;
+}
+@media (max-width: 746px) {
+  .about-me .img-wrap {
+    height: 390px;
+    width: 390px;
+  }
+}
+.about-me .img-wrap img {
+  height: 100%;
+  width: 100%;
+  aspect-ratio: 3/3;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+  pointer-events: none;
+}
+.about-me h6 {
+  font-family: para;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 21px;
+  font-style: normal;
+  color: #161616;
+}
+.about-me h2 {
+  font-family: para;
+  font-size: 36px;
+  line-height: 40px;
+  font-style: normal;
+  color: #161616;
+}
+.about-me h2 span {
+  font-family: head;
+  text-transform: uppercase;
+  color: #404040;
+}
+.about-me p {
+  font-family: para;
+  font-size: 18px;
+  line-height: 29px;
+  color: #161616;
+  font-style: normal;
+}
+.about-me button {
+  background-color: transparent;
+  padding: 5px 15px;
+  border: none;
+  border: 1px solid #757575;
+}
+.about-me button a {
+  text-decoration: none;
+  color: #757575;
+  font-size: 15px;
+  font-family: para-bold;
+  text-transform: uppercase;
+}
+.about-me button:hover {
+  background-color: #757575;
+}
+.about-me button:hover a {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.work {
+  padding-bottom: 50px;
+}
+.work img {
+  pointer-events: none;
+}
+.work h1 {
+  font-size: 36px;
+  font-family: para;
+  line-height: 43px;
+  color: #161616;
+}
+.work h1 span {
+  font-family: head;
+  text-transform: uppercase;
+  color: #404040;
+  font-size: 33px;
+}
+.work .nav-pills .nav-link.active,
+.work .nav-pills .show > .nav-link {
+  color: #757575;
+  background-color: transparent;
+  border: 1px solid #757575;
+  border-radius: 0px;
+  text-transform: uppercase;
+}
+.work .nav-pills .nav-link.active,
+.work .nav-pills .show > .nav-link :hover {
+  color: #fff;
+  background-color: #757575;
+  border: 1px solid #757575;
+  text-transform: uppercase;
+}
+.work .nav-link:hover {
+  color: #161616;
+}
+.work li button {
+  font-family: para-bold;
+  color: #161616;
+  font-style: normal;
+}
+.work .he-1 {
+  height: auto !important;
+}
+.work .pp {
+  padding: 4px 4px;
+}
+.work video {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.sticky-btns {
+  position: fixed;
+  bottom: 0px;
+  z-index: 30000;
+  right: 5px;
+  bottom: 10px;
+}
+
+.testimonials {
+  padding-top: 10px;
+  padding-bottom: 65px;
+}
+.testimonials h2 {
+  font-size: 24px;
+  font-family: para-bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+.testimonials h3 {
+  font-size: 22px;
+  font-family: head;
+  color: grey;
+  text-transform: uppercase;
+}
+.testimonials img {
+  width: 100%;
+  height: 380px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  transition: 0.4s all ease-in-out;
+}
+.testimonials img:hover {
+  transform: scale(0.9);
+  cursor: pointer;
+}
+.testimonials p {
+  font-family: para;
+  font-size: 18px;
+  line-height: 29px;
+  color: #161616;
+  font-style: normal;
+}
+.testimonials .carousel-control-next,
+.testimonials .carousel-control-prev {
+  position: absolute;
+  bottom: -50px;
+  top: auto;
+  z-index: 1;
+  width: 15%;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  background: 0 0;
+  border: 0;
+  opacity: 0.5;
+  transition: opacity 0.15s ease;
+}
+.testimonials .carousel-control-prev {
+  left: 40%;
+}
+.testimonials .carousel-control-next {
+  left: 43%;
+}
+@media (max-width: 1053px) {
+  .testimonials .carousel-control-next {
+    left: 50%;
+  }
+}
+
+.sub-foot {
+  background-color: #e8e8e8;
+  padding: 15px 0px;
+  overflow: hidden;
+}
+.sub-foot h2 {
+  font-family: para-roman;
+  text-align: center;
+  text-transform: capitalize;
+}
+.sub-foot button {
+  background-color: #c48f56;
+  padding: 5px 15px;
+}
+.sub-foot button a {
+  text-decoration: none;
+  color: #fff;
+  font-family: Montserrat-500;
+}
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+.sub-foot .logos {
+  overflow: hidden;
+  padding: 0 0;
+  white-space: nowrap;
+  position: relative;
+}
+.sub-foot .logos-slide {
+  display: inline-block;
+  animation: 25s slide infinite linear;
+}
+.sub-foot .logos-slide img {
+  height: 350px;
+  margin: 0 4px;
+}
+@media (max-width: 774px) {
+  .sub-foot .logos-slide img {
+    height: 280px;
+  }
+}
+
+.foot {
+  background-color: #f0f0f0;
+  padding: 30px 0px;
+}
+.foot h2 {
+  font-size: 24px;
+  color: #161616;
+  font-family: head;
+  text-transform: uppercase;
+}
+.foot p {
+  font-size: 14px;
+  color: #161616;
+  font-family: para-bold;
+}
+.foot p a {
+  text-decoration: none;
+  color: #161616;
+  font-family: anchor;
+}
+.foot h5 {
+  font-family: para-bold;
+}
+.foot span {
+  font-weight: 800;
+  font-family: para-bold;
+  padding-right: 10px;
+}
+
+.lower-foot {
+  padding: 10px 0px;
+  background-color: #e8e8e8;
+}
+.lower-foot p {
+  font-size: 14px;
+  color: #161616;
+  font-family: para-bold;
+  text-align: center;
+}
+
+.instagram {
+  background-color: #e8e8e8;
+}
+.instagram h2 {
+  font-family: head;
+}
+.instagram hr {
+  width: 80px;
+  border: 2px solid #757575;
+}
+.instagram p {
+  font-family: para-bold;
+  text-transform: uppercase;
+  color: #878787;
+}
+.instagram h3 {
+  font-family: anchor;
+  text-transform: uppercase;
+}
+.instagram button {
+  background-color: #f0f0f0;
+  padding: 5px 20px;
+  border: 1px solid #878787;
+}
+.instagram button a {
+  color: #878787;
+  text-decoration: none;
+  font-family: anchor;
+}
+.instagram .gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+.instagram .gallery .image {
+  padding: 7px;
+  width: 33.3333333333%;
+}
+.instagram .gallery .image span {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+}
+.instagram .gallery .image img {
+  height: 500px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  vertical-align: middle;
+  transition: all 0.3s ease;
+}
+.instagram .gallery .image:hover img {
+  transform: scale(1.1);
+}
+.instagram .preview-box {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.9);
+  background: #fff;
+  max-width: 550px;
+  width: 100%;
+  z-index: 5;
+  opacity: 0;
+  pointer-events: none;
+  border-radius: 3px;
+  padding: 0 5px 5px 5px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+.instagram .preview-box.show {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translate(-50%, -50%) scale(1);
+  transition: all 0.3s ease;
+}
+.instagram .preview-box .details {
+  display: flex;
+  align-items: center;
+  padding: 12px 15px 12px 10px;
+  justify-content: space-between;
+}
+.instagram .preview-box .details .title {
+  display: flex;
+  font-size: 18px;
+  font-weight: 400;
+}
+.instagram .details .title p {
+  margin: 0 5px;
+}
+.instagram .details .title p.current-img {
+  font-weight: 500;
+}
+.instagram .details .icon {
+  color: #007bff;
+  font-size: 20px;
+  cursor: pointer;
+}
+.instagram .preview-box .image-box {
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+.instagram .image-box .slide {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 30px;
+  cursor: pointer;
+  height: 50px;
+  width: 60px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 3px;
+}
+.instagram .slide.prev {
+  left: 0px;
+}
+.instagram .slide.next {
+  right: 0px;
+}
+.instagram .image-box img {
+  width: 550px;
+  height: 550px;
+  border-radius: 0 0 3px 3px;
+}
+.instagram .shadow {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  display: none;
+  background: rgba(0, 0, 0, 0.45);
+}
+@media (max-width: 1000px) {
+  .instagram .gallery .image {
+    width: 50%;
+  }
+}
+@media (max-width: 600px) {
+  .instagram .gallery .image {
+    width: 50%;
+    padding: 2px;
+  }
+  .instagram .gallery .image img {
+    height: 200px;
+    width: 100%;
+    vertical-align: middle;
+    transition: all 0.3s ease;
+  }
+}
+
+.form h1 {
+  font-family: head;
+}
+.form h5 {
+  font-family: para-bold;
+  text-transform: uppercase;
+}
+.form a {
+  font-family: anchor;
+  text-decoration: none;
+  color: #161616;
+}
+.form hr {
+  width: 40px;
+  border: 1px solid #161616;
+}
+.form h2 {
+  font-family: head;
+}
+.form input {
+  width: 100%;
+  padding: 4px 14px;
+  font-family: anchor;
+}
+.form textarea {
+  width: 100%;
+  padding: 4px 14px;
+  font-family: anchor;
+}
+.form button {
+  background-color: transparent;
+  color: #757575;
+  border: 1px solid #757575;
+  padding: 5px 15px;
+  font-family: anchor;
+}/*# sourceMappingURL=style.css.map */
